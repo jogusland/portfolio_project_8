@@ -27,7 +27,13 @@ body​ {
     padding: 30px 20px;
 }
 
+.text-container {
+    margin: auto auto auto 0px;
+}
 
+.text-container p, h2 {
+    margin: 8px;
+}
 
 .hidden {
     display: none;

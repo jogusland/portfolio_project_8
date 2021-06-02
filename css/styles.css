@@ -365,8 +365,31 @@ body​ {
   padding: 30px 20px;
 }
 
+.text-container {
+  margin: auto auto auto 0px;
+}
+
+.text-container p, h2 {
+  margin: 8px;
+}
+
 .hidden {
   display: none;
+}
+
+.grid-container {
+  display: grid;
+  margin: 70px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 45px;
+}
+
+.card {
+  display: grid;
+  border: 3px solid #c1bebe;
+  border-radius: 8px;
+  grid-template-columns: 1fr 2fr;
 }
 
 .modal-close {
@@ -377,6 +400,7 @@ body​ {
 }
 
 .avatar {
+  margin: 30px;
   border-radius: 50%;
 }
 

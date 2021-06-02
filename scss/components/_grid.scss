@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    margin: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 45px;
+}
+
+.card {
+    display: grid;
+    border: 3px solid rgb(193, 190, 190);
+    border-radius: 8px;
+    grid-template-columns: 1fr 2fr;
+}
