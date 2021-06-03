@@ -345,6 +345,10 @@ body​ {
   position: relative;
 }
 
+p {
+  color: grey;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -365,12 +369,20 @@ body​ {
   padding: 30px 20px;
 }
 
+.modal-content p {
+  padding: 8px;
+}
+
 .text-container {
   margin: auto auto auto 0px;
 }
 
 .text-container p, h2 {
   margin: 8px;
+}
+
+header h1 {
+  margin: 70px auto 0px 70px;
 }
 
 .hidden {
@@ -381,7 +393,6 @@ body​ {
   display: grid;
   margin: 70px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
   grid-gap: 45px;
 }
 
