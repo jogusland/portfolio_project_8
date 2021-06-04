@@ -1,0 +1,28 @@
+@media only screen and (min-width: 760px) {
+    .card {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 31.3% 31.3% 31.3%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .grid-container {
+        grid-template-columns: 31.3% 31.3% 31.3%;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}

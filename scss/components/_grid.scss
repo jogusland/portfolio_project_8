@@ -1,13 +1,18 @@
-.grid-container {
-    display: grid;
-    margin: 70px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 45px;
+
+header, .grid-container {
+  max-width: min(960px, 94%);
+  margin: 40px auto;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 45.3% 45.3%;
+  grid-gap: 30px;
+}
+  
 .card {
-    display: grid;
-    border: 3px solid rgb(193, 190, 190);
-    border-radius: 8px;
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  border: 2px solid #d8d8d8;
+  border-radius: 8px;
+  grid-template-columns: 1fr 2fr;
 }
